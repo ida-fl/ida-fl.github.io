@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: IDA: Inverse Distance Aggregation for Federated Learning with Non-IID Data
+title: Inverse Distance Aggregation for Federated Learning with Non-IID Data
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Federated learning (FL) has been a promising approach in the field of medical imaging in recent years. A critical problem in FL, specifically in medical scenarios is to have a more accurate shared model which is robust to noisy and out-of distribution clients. In this work, we tackle the problem of statistical heterogeneity in data for FL which is highly plausible in medical data where for example the data comes from different sites with different scanner settings. We propose IDA (Inverse Distance Aggregation), a novel adaptive weighting approach for clients based on meta-information which handles imbalanced and non-iid data. We extensively analyze and evaluate our method against the well-known FL approach, Federated Averaging as a baseline.
