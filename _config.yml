@@ -13,14 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+title: IDA: Inverse Distance Aggregation for Federated Learning with Non-IID Data
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+  Federated learning (FL) has been a promising approach in the field of medical imaging in recent years. A critical problem in FL, specifically in medical scenarios is to have a more accurate shared model which is robust to noisy and out-of distribution clients. In this work, we tackle the problem of statistical heterogeneity in data for FL which is highly plausible in medical data where for example the data comes from different sites with different scanner settings. We propose IDA (Inverse Distance Aggregation), a novel adaptive weighting approach for clients based on meta-information which handles imbalanced and non-iid data. We extensively analyze and evaluate our method against the well-known FL approach, Federated Averaging as a baseline.
+twitter_username: azadef
+github_username: azadef
 minimal_mistakes_skin: default
 search: true
 
@@ -58,7 +56,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Yousef Yeganeh"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
